@@ -32,6 +32,6 @@ def computer_guess(x):
 
     print("Ano! pocitac uhodl tvoje císlo:)")
 
-
+print(guess())
 
 computer_guess(10) # Tady se upravuje rozhraní, odkud počítač bude vybírat císlo napr. 1 az 10 
