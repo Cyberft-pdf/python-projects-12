@@ -44,6 +44,8 @@ def hangman():
     else:
         print("Uhodl si správné slovo", word, ":)")
 
+print("test")
+
         
 hangman()
 
