@@ -16,8 +16,11 @@ class TicTacToe:
         return [i for i, spot in enumerate(self.board) if spot == " "]
 
     def empty_squares(self):
-        return " "
+        return " " in self.board
 
+
+    def num_empty_squares(self):
+        return self.board.count(" ")
 
 
 def play(game, x_player, o_player, print_game = True):
