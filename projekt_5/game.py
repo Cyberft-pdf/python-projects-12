@@ -30,7 +30,10 @@ def play(game, x_player, o_player, print_game = True):
     letter = "X"
 
     while game.empty_squares():
-        pass 
+        if letter == "0":
+            square = o_player.get_move(game)
+        else:
+            square = x_player.get_move(game) 
 
 
 
