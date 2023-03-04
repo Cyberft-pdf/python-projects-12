@@ -39,11 +39,3 @@ def play(game, x_player, o_player, print_game = True):
 
 print(TicTacToe)
 
-
-
-
-
-
-
-
-
